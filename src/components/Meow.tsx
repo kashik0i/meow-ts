@@ -27,7 +27,10 @@ const Meow = (props: Props) => {
   };
   React.useEffect(() => {
     fetch();
+<<<<<<< HEAD
     // eslint-disable-next-line react-hooks/exhaustive-deps
+=======
+>>>>>>> 1a257017d78ef6313a5a3348d005c07306b3bbc0
   }, []);
   // const [{ data, loading, error }] = useAxios<MeowRequest>(
   //   `https://cataas.com/cat?json=true`
